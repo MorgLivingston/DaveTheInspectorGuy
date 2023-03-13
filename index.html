@@ -15,8 +15,8 @@
 	<header class="px-2 py-1 text-sm text-gray-100 bg-zinc-700">
 		<nav>
 			<ul class="flex justify-between">
-				<li><a href="">DTIG</a></li>
-				<li> <a href=""> Contact</a></li>
+				<li><a href="/index.html">DTIG</a></li>
+				<li> <a href="#contact"> Contact</a></li>
 			</ul>
 		</nav>
 	</header>
@@ -31,7 +31,7 @@
 		<div  class="px-6">
 			<h1 class="pt-10 pb-5 font-black leading-none text-center text-7vw ">Professional, affordable, and reliable home inspections.</h1>
 			<p class="pb-2 text-center ">With my extensive experience and attention to detail, you can trust that I will thoroughly evaluate your home and provide you with a comprehensive report. My top priority is ensuring that you have peace of mind and confidence in your investment. Choose me for the best value and service in the area.</p>
-			<a class="block pt-5 pb-10 text-center text-blue-600" href="#form">Fill out the form to get a quote quickly > </a>
+			<a class="block pt-5 pb-10 text-center text-blue-600" href="#contact">Fill out the form to get a quote quickly > </a>
 		</div>
 	</main>
 	<section class="px-6 pb-10">
@@ -78,7 +78,7 @@
         <div class="pt-8 text-base font-semibold leading-7">
           <p class="text-white">Ready to schedule your inspection?</p>
           <p>
-            <a href="/#contact" class="text-white hover:text-blue-900">Contact me &rarr;</a>
+            <a href="#contact" class="text-white hover:text-blue-900">Contact me &rarr;</a>
           </p>
         </div>
       </div>
@@ -92,7 +92,7 @@
 		<h4>Get detailed and reliable home inspection reports.</h4>
 		<p>With decades of construction experience, receive a thorough report with pictures, explanations, cost estimates and repair recommendations. Delivered via email in easy-to-understand PDF format for peace of mind.</p>
 	</section>
-	<section id="contact px-6">
+	<section id="contact">
 		<div class="mt-10 sm:mt-0">
 			<div class="md:grid md:grid-cols-3 md:gap-6">
 			  <div class="md:col-span-1">
@@ -152,19 +152,40 @@
 						</div>
 
 						<div class="col-span-6 sm:col-span-3">
-							<label for="crawlsapce" class="block text-sm font-medium leading-6 text-gray-900">Crawlsapce</label>
-							<select id="crawlsapce" name="crawlsapce" class="mt-2 block w-full rounded-md border-0 bg-white py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+							<label for="crawlspace" class="block text-sm font-medium leading-6 text-gray-900">Crawlspace</label>
+							<select id="crawlsapce" name="crawlspace" class="mt-2 block w-full rounded-md border-0 bg-white py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
 							  <option>Yes</option>
 							  <option>No</option>
 							</select>
 						  </div>
 
-					  </div>
+						  <div class="col-span-6 sm:col-span-3 lg:col-span-2">
+							<label for="inspection-deadline" class="block text-sm font-medium leading-6 text-gray-900">Inspection Deadline</label>
+							<input type="date" name="inspection-deadline" id="inspection-deadline" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						  </div>
 					</div>
-					<div class="px-4 py-3 text-right bg-gray-50 sm:px-6">
-					  <button type="submit" class="inline-flex justify-center px-3 py-2 text-sm font-semibold text-white bg-blue-700 rounded-md shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-500">Submit</button>
-					</div>
-					
+					<!-- TEST -->
+					<div>
+						<div class="mt-5 md:grid md:grid-cols-3 md:gap-6">
+						  <div class="md:col-span-1">
+							<div class="px-0 sm:px-0">
+							  <h3 class="block text-sm font-medium leading-6 text-gray-900">Message</h3>
+							  <p class="mt-1 text-sm text-gray-600">Is there is any addional info you would like to let me know about the property?</p>
+							</div>
+						  </div>
+						  <div class="mt-5 md:col-span-2 md:mt-0">
+								<div class="px-4 py-5 space-y-6 bg-white sm:p-6">
+								  <div class="grid grid-cols-3 gap-6">
+								  </div>
+									<div class="mt-2">
+									  <textarea id="message" name="message" rows="3" class="mt-1 block w-full rounded-md border-0 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:py-1.5 sm:text-sm sm:leading-6"></textarea>
+									</div>
+									
+									<div class="px-4 py-3 text-right sm:px-6">
+										<button type="submit" class="inline-flex justify-center px-3 py-2 text-sm font-semibold text-white bg-blue-700 rounded-md shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-500">Submit</button>
+									  </div>
+								  
+								
 				  </div>
 				</form>
 			  </div>
