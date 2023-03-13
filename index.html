@@ -15,7 +15,7 @@
 	<header class="px-2 py-1 text-sm text-gray-100 bg-zinc-700">
 		<nav>
 			<ul class="flex justify-between">
-				<li><a href="">Dave The Inspector Guy</a></li>
+				<li><a href="">DTIG</a></li>
 				<li> <a href=""> Contact</a></li>
 			</ul>
 		</nav>
@@ -93,55 +93,83 @@
 		<p>With decades of construction experience, receive a thorough report with pictures, explanations, cost estimates and repair recommendations. Delivered via email in easy-to-understand PDF format for peace of mind.</p>
 	</section>
 	<section id="contact px-6">
-		<h2>Quote Form</h2>
-		<span>Would you like to get the ball rolling and get a quote for a home inspection? Fill out this quick form and I'll get back to you ASAP</span>
-		<form class="container px-6 pt-10 pb-8 shadow-xl bg-gradient-to-br from-slate-50 to-slate-200 ring-1 ring-gray-900/5 sm:mx-auto sm:max-w-md sm:rounded-xl sm:px-10">
-			<h2 class="mb-4 text-lg font-medium">Contact Form</h2>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Name</label>
-			  <input class="w-full p-2 border border-gray-400" type="text" placeholder="John Doe">
-			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Email</label>
-			  <input class="w-full p-2 border border-gray-400" type="email" placeholder="johndoe@example.com">
-			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Phone Number</label>
-			  <input class="w-full p-2 border border-gray-400" type="tel" placeholder="(123) 456-7890">
-			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Property Address</label>
-			  <input class="w-full p-2 border border-gray-400" type="text" placeholder="123 Main St">
-			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Buyer's Agent</label>
-			  <input class="w-full p-2 border border-gray-400" type="text" placeholder="Jane Smith">
-			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">MLS #</label>
-			  <input class="w-full p-2 border border-gray-400" type="text" placeholder="123456">
-			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Sq Ft</label>
-			  <input class="w-full p-2 border border-gray-400" type="number" placeholder="2000">
-			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Property Age (in years)</label>
-			  <input class="w-full p-2 border border-gray-400" type="number" placeholder="10">
-			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Crawlspace</label>
-			  <div class="flex items-center">
-				<input class="mr-2" type="checkbox">
-				<span>Yes</span>
+		<div class="mt-10 sm:mt-0">
+			<div class="md:grid md:grid-cols-3 md:gap-6">
+			  <div class="md:col-span-1">
+				<div class="px-4 sm:px-0">
+				  <h3 class="text-base font-semibold leading-6 text-gray-900">Quote Form</h3>
+				  <p class="mt-1 text-sm text-gray-600">Would you like to get the ball rolling and get a quote for a home inspection? Fill out this quick form and I'll get back to you ASAP</p>
+				</div>
+			  </div>
+			  <div class="mt-5 md:col-span-2 md:mt-0">
+				<form action="#" method="POST">
+				  <div class="overflow-hidden shadow sm:rounded-md">
+					<div class="px-4 py-5 bg-white sm:p-6">
+					  <div class="grid grid-cols-6 gap-6">
+						<div class="col-span-6 sm:col-span-3">
+						  <label for="first-name" class="block text-sm font-medium leading-6 text-gray-900">First name</label>
+						  <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						</div>
+		  
+						<div class="col-span-6 sm:col-span-3">
+						  <label for="last-name" class="block text-sm font-medium leading-6 text-gray-900">Last name</label>
+						  <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						</div>
+		  
+						<div class="col-span-6 sm:col-span-4">
+						  <label for="email-address" class="block text-sm font-medium leading-6 text-gray-900">Email address</label>
+						  <input type="text" name="email-address" id="email-address" autocomplete="email" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						</div>
+
+						<div class="col-span-6 sm:col-span-4">
+							<label for="phone-number" class="block text-sm font-medium leading-6 text-gray-900">Phone Number</label>
+							<input type="tel" name="phone-number" id="email-address" autocomplete="tel" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						  </div>
+		  
+						<div class="col-span-6 sm:col-span-4">
+							<label for="agent-name" class="block text-sm font-medium leading-6 text-gray-900">Agent's Name</label>
+							<input type="text" name="agent-name" id="agent-name"  class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						</div>
+		  
+						<div class="col-span-6">
+						  <label for="street-address" class="block text-sm font-medium leading-6 text-gray-900">Property address</label>
+						  <input type="text" name="propert-address" id="street-address" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						</div>
+		  
+						<div class="col-span-6 sm:col-span-6 lg:col-span-2">
+						  <label for="city" class="block text-sm font-medium leading-6 text-gray-900">MLS #</label>
+						  <input type="number" name="mls" id="mls" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						</div>
+		  
+						<div class="col-span-6 sm:col-span-3 lg:col-span-2">
+						  <label for="region" class="block text-sm font-medium leading-6 text-gray-900">Area in SF</label>
+						  <input type="number" name="sqft" id="sqft" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						</div>
+		  
+						<div class="col-span-6 sm:col-span-3 lg:col-span-2">
+						  <label for="postal-code" class="block text-sm font-medium leading-6 text-gray-900">Property age (in years)</label>
+						  <input type="number" name="property-age" id="property-age" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+						</div>
+
+						<div class="col-span-6 sm:col-span-3">
+							<label for="crawlsapce" class="block text-sm font-medium leading-6 text-gray-900">Crawlsapce</label>
+							<select id="crawlsapce" name="crawlsapce" class="mt-2 block w-full rounded-md border-0 bg-white py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-cyan-500 sm:text-sm sm:leading-6">
+							  <option>Yes</option>
+							  <option>No</option>
+							</select>
+						  </div>
+
+					  </div>
+					</div>
+					<div class="px-4 py-3 text-right bg-gray-50 sm:px-6">
+					  <button type="submit" class="inline-flex justify-center px-3 py-2 text-sm font-semibold text-white bg-blue-700 rounded-md shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cyan-500">Submit</button>
+					</div>
+					
+				  </div>
+				</form>
 			  </div>
 			</div>
-			<div class="mb-4">
-			  <label class="block mb-2 font-medium text-gray-700">Inspection Deadline Date</label>
-			  <input class="w-full p-2 border border-gray-400" type="date">
-		  
-			
-		</form>
+		  </div>
 		
 	</section>
 	</body>
